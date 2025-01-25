@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className={style.container}>
       <div className={style.content}>
-        <h1 className={style.title}>Hi, iam Tobbe</h1>
-        <p className={style.description}>iam a junior fullstack developer</p>
+        <h1 className={style.title}>Hi, I am Tobbe</h1>
+        <p className={style.description}>a student frontend developer</p>
         <a href="mailto:myemail@email.com" className={style.contactBtn}>
           Contact me
         </a>
