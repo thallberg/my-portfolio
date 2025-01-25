@@ -22,10 +22,12 @@ const ProjectCard = ({
         })}
       </ul>
       <div className={style.links}>
-        <a className={style.link} href={demo}>
+        <a className={style.link} href={demo}
+        target="_blank">
           Demo
         </a>
-        <a className={style.link} href={source}>
+        <a className={style.link} href={source}
+        target="_blank">
           Source
         </a>
       </div>
