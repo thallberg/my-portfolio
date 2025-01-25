@@ -6,5 +6,21 @@
     "endDate": "feb, 2026",
     "experiences": ["Studying web development and programming", "Completed projects using Angular, React, and Node.js"],
     "imageSrc": "./assets/history/ec.png"
+  },
+  {
+    "role": "Certification",
+    "organisation": "FreeCodeCamp",
+    "startDate": "okt, 2024",
+    "endDate": "nov, 2024",
+    "experiences": ["Responsive Web Design"],
+    "imageSrc": "./assets/history/freecodecamp.png"
+  },
+  {
+    "role": "Certification",
+    "organisation": "FreeCodeCamp",
+    "startDate": "nov, 2024",
+    "endDate": "jan, 2025",
+    "experiences": ["JavaScript Algorithms and Data Structure"],
+    "imageSrc": "./assets/history/freecodecamp.png"
   }
 ]
