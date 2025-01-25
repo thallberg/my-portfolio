@@ -4,7 +4,7 @@
     "imageSrc": "./assets/projects/project.png",
     "description": "This was our first project.",
     "skills": ["Html", "Css", "JavaScipt"],
-    "demo": "library-abp760ndq-thallbergs-projects.vercel.app",
+    "demo": "https://library-gamma-coral.vercel.app/",
     "source": "https://github.com/thallberg/library"
   },
   {
