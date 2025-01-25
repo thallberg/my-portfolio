@@ -13,7 +13,7 @@ const Hero = () => {
         </a>
       </div>
       <img
-        src={getImageUrl("./assets/hero/heroimage.png")}
+        src={getImageUrl("./assets/hero/heroImage.png")}
         alt="Hero image of me"
         className={style.heroImg}
       />

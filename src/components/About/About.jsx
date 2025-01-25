@@ -39,7 +39,7 @@ const About = () => {
           </li>
 
           <li className={style.aboutItem}>
-            <img src={getImageUrl("./assets/about/UiIcon.png")} alt="Ui icon" />
+            <img src={getImageUrl("./assets/about/uiIcon.png")} alt="Ui icon" />
             <div className={style.aboutItemText}>
               <h3>UI/UX Design</h3>
               <p>
