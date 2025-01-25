@@ -43,6 +43,33 @@ image {
   padding: 2px 22px;
 }
 
+.members {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.member a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.member a:hover {
+  color: var(--color-primary);
+}
+
 .links {
   width: 100%;
   margin-top: 26px;
@@ -58,4 +85,17 @@ image {
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+.githubLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.githubIcon {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 8px; 
 }

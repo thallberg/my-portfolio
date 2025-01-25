@@ -2,8 +2,25 @@
   {
     "title": "Project A",
     "imageSrc": "./assets/projects/project.png",
-   "description": "This was our first school project, we were a group of 5",
-   "skills": ["Html", "Css", "JavaScript"],
+    "description": "This was our first school project, we were a group of 5",
+    "member": [
+      {
+        "name": "Hellen med k, ",
+        "github": ""
+      },
+      {
+        "name": "Hellen med t, ",
+        "github": ""
+      },
+      {
+        "name": "Person 3",
+        "github": ""
+      },
+      {
+        "name": "Person 4",
+        "github": ""
+      }
+    ],
     "demo": "https://library-gamma-coral.vercel.app/",
     "source": "https://github.com/thallberg/library"
   },
@@ -11,7 +28,7 @@
     "title": "Project B",
     "imageSrc": "./assets/projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "member": [],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
@@ -19,7 +36,7 @@
     "title": "Project C",
     "imageSrc": "./assets/projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "member": [],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
