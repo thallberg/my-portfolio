@@ -1,23 +1,15 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "./assets/projects/project.png",
-    "description": "This was our first school project, we were a group of 5",
+    "title": "Library of Hogwarts",
+    "imageSrc": "./assets/projects/libraryprojecthtml.png",
+   "description": "This was our first school group project, the others are listed below",
     "member": [
       {
-        "name": "Hellen med k, ",
+        "name": "HellenK",
         "github": ""
       },
       {
-        "name": "Hellen med t, ",
-        "github": ""
-      },
-      {
-        "name": "Person 3",
-        "github": ""
-      },
-      {
-        "name": "Person 4",
+        "name": "HellenT",
         "github": ""
       }
     ],
