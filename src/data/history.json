@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Student",
+    "organisation": "EC Education",
+    "startDate": "mars, 2024",
+    "endDate": "feb, 2026",
+    "experiences": ["Studying web development and programming", "Completed projects using Angular, React, and Node.js"],
+    "imageSrc": "./assets/history/ec.png"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "./assets/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "./assets/skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "./assets/skills/react.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "./assets/skills/angular.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "./assets/skills/c-sharp.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "./assets/skills/figma.png"
+  }
+]
