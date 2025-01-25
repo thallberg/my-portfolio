@@ -2,8 +2,8 @@
   {
     "title": "Project A",
     "imageSrc": "./assets/projects/project.png",
-    "description": "This was our first project.",
-    "skills": ["Html", "Css", "JavaScipt"],
+   "description": "This was our first school project, we were a group of 5",
+   "skills": ["Html", "Css", "JavaScript"],
     "demo": "https://library-gamma-coral.vercel.app/",
     "source": "https://github.com/thallberg/library"
   },

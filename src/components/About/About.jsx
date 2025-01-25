@@ -22,7 +22,10 @@ const About = () => {
               <h3>Frontend Developer</h3>
               <p>
                 I am a frontend developer with experience in building and
-                optimizing websites.
+                improving websites. I focus on creating websites that are easy
+                to use and work well on all devices. I enjoy making websites
+                both functional and visually appealing, ensuring they provide a
+                good experience for users.
               </p>
             </div>
           </li>
@@ -34,7 +37,10 @@ const About = () => {
             />
             <div className={style.aboutItemText}>
               <h3>Backend Developer</h3>
-              <p>i hade expreience developing API,s</p>
+              <p>
+                We are currently taking backend courses, where we are learning
+                about APIs and other important aspects of backend development.
+              </p>
             </div>
           </li>
 
@@ -43,7 +49,7 @@ const About = () => {
             <div className={style.aboutItemText}>
               <h3>UI/UX Design</h3>
               <p>
-                I have designed multiple landing pages with a focus on user
+                I have designed several landing pages with a focus on user
                 experience.
               </p>
             </div>
