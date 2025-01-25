@@ -2,10 +2,10 @@
   {
     "title": "Project A",
     "imageSrc": "./assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This was our first project.",
+    "skills": ["Html", "Css", "JavaScipt"],
+    "demo": "library-abp760ndq-thallbergs-projects.vercel.app",
+    "source": "https://github.com/thallberg/library"
   },
   {
     "title": "Project B",
