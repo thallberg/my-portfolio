@@ -8,7 +8,7 @@ const About = () => {
       <h2 className={style.title}>About</h2>
       <div className={style.content}>
         <img
-          src={getImageUrl("./assets/about/aboutImage2.png")}
+          src={getImageUrl("./assets/about/aboutImage.webp")}
           alt="Me sitting with a laptop"
           className={style.aboutImage}
         />

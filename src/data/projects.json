@@ -1,7 +1,7 @@
 [
   {
     "title": "Library of Hogwarts",
-    "imageSrc": "./assets/projects/libraryprojecthtml.png",
+    "imageSrc": "./assets/projects/libraryprojecthtml.webp",
    "description": "This was our first school group project, the others are listed below",
     "member": [
       {
@@ -18,18 +18,10 @@
   },
   {
     "title": "LandingPage",
-    "imageSrc": "./assets/projects/project2.png",
+    "imageSrc": "./assets/projects/project2.webp",
     "description": "This is a project made to learn the latest languages by building an app.",
     "member": [],
     "demo": "https://icelandichorse.vercel.app/#about",
     "source": "https://github.com/thallberg/icelandichorse"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "./assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "member": [],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
   }
 ]

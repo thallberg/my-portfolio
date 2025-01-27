@@ -13,9 +13,11 @@ const Hero = () => {
         </a>
       </div>
       <img
-        src={getImageUrl("./assets/hero/heroImage.png")}
+        src={getImageUrl("./assets/hero/heroImage1.webp")}
         alt="Hero image of me"
         className={style.heroImg}
+        fetchpriority="high"
+        loading="eager"
       />
       <div className={style.topBlur}></div>
       <div className={style.bottomBlur}></div>
