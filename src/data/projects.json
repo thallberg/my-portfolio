@@ -1,8 +1,8 @@
 [
   {
     "title": "Library of Hogwarts",
-    "imageSrc": "./assets/projects/libraryprojecthtml.webp",
-   "description": "This was our first school project, the other members are listed below.",
+    "imageSrc": "./assets/projects/project1.png",
+    "description": "This was our first school project, the other members are listed below.",
     "member": [
       {
         "name": "HellenK",
@@ -22,8 +22,8 @@
   },
   {
     "title": "LandingPage",
-    "imageSrc": "./assets/projects/project2.webp",
-    "description": "This is a work in progress",
+    "imageSrc": "./assets/projects/project2.png",
+    "description": "This is a work in progress, showcasing the horse farm with the possibility to book trail riding.",
     "member": [],
     "demo": "https://icelandichorse.vercel.app/#about",
     "source": "https://github.com/thallberg/icelandichorse"
