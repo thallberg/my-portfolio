@@ -23,7 +23,7 @@
   {
     "title": "LandingPage",
     "imageSrc": "./assets/projects/project2.webp",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This is a work in progress",
     "member": [],
     "demo": "https://icelandichorse.vercel.app/#about",
     "source": "https://github.com/thallberg/icelandichorse"
