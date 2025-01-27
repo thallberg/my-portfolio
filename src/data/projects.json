@@ -2,15 +2,19 @@
   {
     "title": "Library of Hogwarts",
     "imageSrc": "./assets/projects/libraryprojecthtml.webp",
-   "description": "This was our first school group project, the others are listed below",
+   "description": "This was our first school project, the other members are listed below.",
     "member": [
       {
         "name": "HellenK",
-        "github": ""
+        "github": "https://github.com/hellenkarlsson"
       },
       {
         "name": "HellenT",
-        "github": ""
+        "github": "https://github.com/hellentruongg"
+      },
+      {
+        "name": "AdamK",
+        "github": "https://github.com/adamkosovic"
       }
     ],
     "demo": "https://library-gamma-coral.vercel.app/",

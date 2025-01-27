@@ -48,6 +48,12 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.4s ease-in, color 0.4s ease-in;
+}
+
+.contactBtn:hover {
+  background-color: var(--color-hover);
+  color: var(--color-darker);
 }
 
 .heroImg {
@@ -110,5 +116,8 @@
     align-items: center;
     text-align: center;
   }
-  
+
+  .heroImg {
+    animation: none;
+  }
 }

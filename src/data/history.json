@@ -13,7 +13,8 @@
     "startDate": "okt, 2024",
     "endDate": "nov, 2024",
     "experiences": ["Responsive Web Design"],
-    "imageSrc": "./assets/history/freecodecamp.png"
+    "imageSrc": "./assets/history/freecodecamp.png",
+    "certificateUrl": "https://freecodecamp.org/certification/fccb8c932b1-c6d5-41a3-a082-50d999e0f2a0/responsive-web-design" 
   },
   {
     "role": "Certification",
@@ -21,6 +22,9 @@
     "startDate": "nov, 2024",
     "endDate": "jan, 2025",
     "experiences": ["JavaScript Algorithms and Data Structure"],
-    "imageSrc": "./assets/history/freecodecamp.png"
+    "imageSrc": "./assets/history/freecodecamp.png",
+    "certificateUrl": "https://freecodecamp.org/certification/fccb8c932b1-c6d5-41a3-a082-50d999e0f2a0/javascript-algorithms-and-data-structures-v8" 
   }
 ]
+
+

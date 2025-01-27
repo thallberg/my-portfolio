@@ -23,6 +23,7 @@ const Experience = () => {
         </div>
         <ul className={style.history}>
           {history.map((historyItem, id) => {
+             const isCertification = historyItem.role === "Certification";
             return (
               <li key={id} className={style.historyItem}>
                 <img
@@ -37,6 +38,17 @@ const Experience = () => {
                       return <li key={id}>{experience}</li>;
                     })}
                   </ul>
+
+                  {isCertification && historyItem.certificateUrl && (
+                    <a
+                    href={historyItem.certificateUrl} 
+                     target="_blank"
+                     rel="noopener noreferrer"
+                      className={style.certificateLink}
+                    >
+                      View Certificate
+                    </a>
+                  )}
                 </div>
               </li>
             );

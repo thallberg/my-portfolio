@@ -6,6 +6,9 @@
   --color-dark: #0b2447;
   --color-bg: #04152d;
 
+  --color-hover: #889ce9;
+  --color-darker: #041731;
+
   /* Fonts */
   --font-roboto: "Roboto";
 }

@@ -92,6 +92,11 @@
   padding: 1px 22px;
 }
 
+.link:hover {
+  background-color: var(--color-hover);
+  color: var(--color-darker);
+}
+
 .githubLink {
   display: flex;
   align-items: center;
