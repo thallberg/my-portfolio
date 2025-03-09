@@ -35,5 +35,13 @@
     "member": [],
     "demo": "https://space-travel-tan.vercel.app/",
     "source": "https://github.com/thallberg/SpaceTravel"
+  },
+  {
+    "title": "Blogged",
+    "imageSrc": "./assets/projects/project3.png",
+    "description": "",
+    "member": [],
+    "demo": "https://blog-app-rouge-omega.vercel.app/",
+    "source": "https://github.com/thallberg/blog-app"
   }
 ]
