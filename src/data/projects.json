@@ -38,8 +38,8 @@
   },
   {
     "title": "Blogged",
-    "imageSrc": "./assets/projects/project3.png",
-    "description": "",
+    "imageSrc": "./assets/projects/project4.png",
+    "description": "Blogged is a modern blogging platform where users can read and interact with blog posts. Explore various topics and enjoy a user-friendly experience.",
     "member": [],
     "demo": "https://blog-app-rouge-omega.vercel.app/",
     "source": "https://github.com/thallberg/blog-app"
