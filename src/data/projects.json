@@ -25,7 +25,23 @@
     "imageSrc": "./assets/projects/project2.png",
     "description": "This is a work in progress, showcasing the horse farm with the possibility to book trail riding.",
     "member": [],
-    "demo": "https://icelandichorse.vercel.app/#about",
+    "demo": "https://icelandichorse.vercel.app/",
     "source": "https://github.com/thallberg/icelandichorse"
+  },
+  {
+    "title": "SpaceTravel",
+    "imageSrc": "./assets/projects/project3.png",
+    "description": "Imagine a future where space travel is not just a dream, but a reality. SpaceTravel is your gateway to booking your first space journey.",
+    "member": [],
+    "demo": "https://space-travel-tan.vercel.app/",
+    "source": "https://github.com/thallberg/SpaceTravel"
+  },
+  {
+    "title": "Blogged",
+    "imageSrc": "./assets/projects/project4.png",
+    "description": "Blogged is a modern blogging platform where users can read and interact with blog posts. Explore various topics and enjoy a user-friendly experience.",
+    "member": [],
+    "demo": "https://blog-app-rouge-omega.vercel.app/",
+    "source": "https://github.com/thallberg/blog-app"
   }
 ]
