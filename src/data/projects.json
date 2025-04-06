@@ -25,8 +25,8 @@
     "imageSrc": "./assets/projects/project2.png",
     "description": "This is a work in progress, showcasing the horse farm with the possibility to book trail riding.",
     "member": [],
-    "demo": "https://icelandichorse.vercel.app/",
-    "source": "https://github.com/thallberg/icelandichorse"
+    "demo": "https://icelandic-horse-react.vercel.app/",
+    "source": "https://github.com/thallberg/IcelandicHorse-React"
   },
   {
     "title": "SpaceTravel",
