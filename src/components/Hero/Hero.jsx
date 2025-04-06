@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 
 const Hero = () => {
   return (
-    <section className={style.container}>
+    <section className={style.container} id="header">
       <div className={style.content}>
         <h1 className={style.title}>Hey, my name is Tobbe</h1>
         <p className={style.description}>I'm studying front-end development.</p>

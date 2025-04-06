@@ -1,17 +1,27 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 60px 20px;
   z-index: 2;
-  margin: 0 10%;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 
-.menuBtn {
-  display: none;
+/* Add scrolled class styles */
+.scrolled {
+  background-color: rgba(25, 55, 109, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  backdrop-filter: blur(5px);
 }
 
 .title {
@@ -19,17 +29,25 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  margin-right: 4%;
+  margin-left: 5%;
 }
 
 .menu {
   display: flex;
+  margin-right: 5%;
+}
+
+.menuBtn {
+  display: none;
+  cursor: pointer;
 }
 
 .menuItems {
   display: flex;
   gap: 47px;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menuItems a {
@@ -74,6 +92,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .title {
+    margin-left: 5%;
+  }
+  
+  .menu {
+    margin-right: 5%;
+  }
+  
   .menuItems a::after {
     content: none;
   }
@@ -83,43 +114,56 @@
   }
 
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  /* Adjust mobile scrolled styles if needed */
+  .scrolled {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .menu {
-    position: absolute;
+    position: relative;
     right: 0;
-    right: -10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    z-index: 3;
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
+    z-index: 3;
+    position: relative;
+    left: auto;
   }
 
   .menuItems {
     display: none;
+    position: fixed;
     flex-direction: column;
     align-items: center;
     gap: 33px;
-    border-radius: 10px;
+    height: 90vh;
+    width: 100%;
+    top: 80px; /* Adjusted to match smaller navbar height when scrolled */
+    left: 0;
+    right: 0;
+    padding: 20px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 0.5) 0%,
       rgba(25, 55, 109, 1) 100%
     );
-    padding: 54px 43px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+
+  .menuItems a {
+    font-size: 40px;
   }
 
   .menuOpen {
     display: flex;
-    z-index: 1;
+    transform: translateX(0);
   }
 }

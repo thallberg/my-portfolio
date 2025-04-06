@@ -1,14 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 
 import { getImageUrl } from "../../utils";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  
+  // Add scroll event listener
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if page is scrolled
+      const isScrolled = window.scrollY > 20;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+    
+    // Add event listener
+    window.addEventListener("scroll", handleScroll);
+    
+    // Remove event listener on cleanup
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
 
   return (
-    <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
+      <a className={styles.title} href="#header">
         Portfolio
       </a>
 
